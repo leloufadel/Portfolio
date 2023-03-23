@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello Microverse] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is my first microverse project that shows how to set up linters and create some basics files of HTML and CSS
 
 **[your_project__name]** is a...
 
@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Not disponible for the moment
 
 - [Live Demo Link](https://google.com)
 
@@ -126,6 +126,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+git clone https://github.com/leloufadel/HelloMicroverse
 
 <!--
 Example command:
@@ -138,6 +139,7 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+git clone https://github.com/leloufadel/HelloMicroverse
 
 <!--
 Example commands:
@@ -151,6 +153,7 @@ Example commands:
 ### Install
 
 Install this project with:
+npm install
 
 <!--
 Example command:
@@ -207,15 +210,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/leloufadel)
+- Twitter: [@twitterhandle](https://twitter.com/leloulfadel)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/fadellala)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,22 +256,6 @@ If you like this project...
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
