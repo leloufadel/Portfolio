@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 20px;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.menu {
+  padding-right: 20px;
+  font-size: 30px;
+  color: blue;
+}
+.Descriptions {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.connect {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  width: 117px;
+  height: 24px;
+  margin-left: 20px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  background-image: url(image/header-shapes\ mobile.png);
+  position: absolute;
+}
+
+h1{
+
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px;
+
+}
+ img {
+  position: absolute;
+left: 0.47%;
+right: 67.2%;
+top: 80.15%;
+bottom: 19.21%;
+margin-right: 20px;
+display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 60px;
+}
