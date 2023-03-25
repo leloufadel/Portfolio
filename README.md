@@ -164,7 +164,7 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Abdul Wahab**
+👤 
 
 - GitHub: [@githubhandle](https://github.com/leloufadel)
 
@@ -190,7 +190,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -212,6 +212,6 @@ I would like to thank Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/leloufadel/Portfolio/blob/mobilefirst/MIT.md">back to top</a>)</p>

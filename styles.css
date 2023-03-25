@@ -12,6 +12,7 @@ header {
   padding: 20px;
 }
 
+
 .logo {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -37,6 +38,7 @@ header {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .connect {
@@ -73,16 +75,120 @@ h1 {
   margin: 20px;
 }
 
-img {
-  position: absolute;
-  left: 0.47%;
-  right: 67.2%;
-  top: 80.15%;
-  bottom: 19.21%;
-  margin-right: 20px;
-  display: flex;
+
+.works {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: white;
+  justify-content: center;
+  margin-top: 100px;
+  height: 220px;
+ width: 295px;
+ left: 16px;
+ top: 16px;
+ border-radius: 8px;
+
+}
+
+h3 {
+  width: 295px;
+height: 56px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #172B4D;
+}
+.grid-container {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-gap: 20px;
+  width: 100%;
+}
+ul > li {
+  display: inline;
+  padding: 7px;
+  gap: 5px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+button {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #396df2;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.programming {
+  width: 45px;
+  height: 30px;
+  background: #ebebff;
+  border-radius: 50px;
+}
+h2{
+font-family: 'Poppins', sans-serif;
+font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: 20px;
-  margin-top: 60px;
+  color: #172B4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 20px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.skill {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px;
+  color: #000;
+}
+.tech {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 15px;
+  color: #253858;
+}
+.languages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.languages > li {
+  display: flex;
+  border: 5px solid #f7f7f9;
+  border-radius: 10px;
+  margin: 3px;
+  background: #f7f7f9;
 }
