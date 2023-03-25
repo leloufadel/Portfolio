@@ -12,7 +12,6 @@ header {
   padding: 20px;
 }
 
-
 .logo {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -75,7 +74,6 @@ h1 {
   margin: 20px;
 }
 
-
 .works {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -83,35 +81,36 @@ h1 {
   justify-content: center;
   margin-top: 100px;
   height: 220px;
- width: 295px;
- left: 16px;
- top: 16px;
- border-radius: 8px;
-
+  width: 295px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
 }
 
 h3 {
   width: 295px;
-height: 56px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color: #172B4D;
+  height: 56px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
+
 .grid-container {
   display: grid;
   grid-template-rows: 3fr 1fr;
   grid-gap: 20px;
   width: 100%;
 }
+
 ul > li {
   display: inline;
   padding: 7px;
   gap: 5px;
 }
+
 p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -120,6 +119,7 @@ p {
   line-height: 24px;
   color: #344563;
 }
+
 button {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -141,20 +141,22 @@ button {
   background: #ebebff;
   border-radius: 50px;
 }
-h2{
-font-family: 'Poppins', sans-serif;
-font-size: 40px;
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 20px;
 }
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -170,6 +172,7 @@ font-size: 40px;
   padding: 10px;
   color: #000;
 }
+
 .tech {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -179,12 +182,14 @@ font-size: 40px;
   margin: 15px;
   color: #253858;
 }
+
 .languages {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
 }
+
 .languages > li {
   display: flex;
   border: 5px solid #f7f7f9;
