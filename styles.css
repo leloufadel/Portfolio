@@ -50,6 +50,7 @@ header {
   width: 117px;
   height: 24px;
   margin-left: 20px;
+  text-decoration: none;
 }
 
 main {
@@ -60,49 +61,71 @@ main {
 }
 
 h1 {
-  font-family: Poppins, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
-  text-align: left;
   align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 20px;
 }
 
-.works {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  background-color: white;
+.cards {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
-  height: 220px;
-  width: 295px;
-  left: 16px;
-  top: 16px;
-  border-radius: 8px;
+  align-items: center;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  /* border: 2px solid red; */
+}
+
+.firstJob {
+  margin-top: 500px;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+#campany {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#detail {
+  font-weight: lighter;
+  font-style: normal;
+  font-size: small;
 }
 
 h3 {
-  width: 295px;
-  height: 56px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+  padding: 5px;
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: 3fr 1fr;
-  grid-gap: 20px;
   width: 100%;
+}
+
+ul {
+  padding: 10px;
 }
 
 ul > li {
@@ -136,10 +159,18 @@ button {
 }
 
 .programming {
-  width: 45px;
-  height: 30px;
-  background: #ebebff;
-  border-radius: 50px;
+  padding: 3px;
+  margin-top: 2px;
+  text-align: center;
+  background-color: #ebebff;
+  border: 5px solid #ebebff;
+  border-radius: 15%;
+  width: 57px;
+  height: 24px;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2 {
@@ -151,9 +182,6 @@ h2 {
   text-align: left;
   align-items: center;
   color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   margin: 20px;
 }
 
@@ -171,6 +199,7 @@ h2 {
   line-height: 24px;
   padding: 10px;
   color: #000;
+  margin-left: 20px;
 }
 
 .tech {
@@ -196,4 +225,39 @@ h2 {
   border-radius: 10px;
   margin: 3px;
   background: #f7f7f9;
+}
+
+.About {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.link {
+  padding: 3px;
+  color: #505f79;
+}
+
+.resume {
+  width: 200px;
+  margin-left: 20px;
 }
