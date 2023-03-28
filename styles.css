@@ -144,8 +144,9 @@ h3 {
 
 .grid-container {
   display: grid;
-  grid-template-rows: 3fr 1fr;
   width: 100%;
+  grid-template-rows: 2fr 1fr;
+  gap: 4rem;
 }
 
 ul {
@@ -235,6 +236,8 @@ h2 {
   display: flex;
   width: 90%;
   justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
 }
 
 .tech {
