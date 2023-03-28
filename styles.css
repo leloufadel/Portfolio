@@ -308,7 +308,7 @@ h2 {
 }
 
 #line-1 {
-  border-left: 50px solid  #dfe1e6;
-  border-radius: 500px;
+  border-left: 10px solid  #dfe1e6;
   background-color: #dfe1e6;
+  width: 94%;
 }
