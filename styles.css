@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #f7f7f9;
+  background-color: #fff;
 }
 
 header {
@@ -63,7 +63,12 @@ main {
   flex-direction: column;
   background-image: url(image/header-shapes\ mobile.png);
   position: absolute;
-  background-color: #f7f7f9;
+  background-color: #fff;
+
+  position: inherit;
+  background-color: white;
+  border-bottom-left-radius: 100px;
+  padding-bottom: 5rem;
 }
 
 h1 {
@@ -92,10 +97,16 @@ h1 {
   margin-bottom: 20px;
 
   /* border: 2px solid red; */
+  background: white;
+  margin: 5rem 0 0 0;
+  padding: 1rem 0;
+  width: 90vw;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
 }
 
 .firstJob {
-  margin-top: 500px;
+  margin-top: 0;
 }
 
 .content {
@@ -248,7 +259,7 @@ h2 {
   border: 5px solid #f7f7f9;
   border-radius: 10px;
   margin: 3px;
-  background: #f7f7f9;
+  background: #fff;
 }
 
 .About {
