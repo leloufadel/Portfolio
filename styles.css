@@ -307,92 +307,97 @@ h2 {
   width: 94%;
 }
 
-.content-1{
-  background-color: #6070FF;
+.content-1 {
+  background-color: #6070ff;
   background-image: url(image/Contact1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
-  width: 375px;
-  border-top-left-radius: 90px;
+  height: 779px;
+  width: 420px;
+  border-top-left-radius: 100px;
   padding: 20px;
-  
 }
-.content-h2{
-  font-family: 'Poppins',sans-serif;
+
+.content-h2 {
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color:#FFFFFF;
+  color: #fff;
   margin-left: 40px;
   margin-right: 20px;
   margin-bottom: 20px;
-  margin-top:80px;
-  
+  margin-top: 80px;
 }
-.contact-me{
-  font-family: 'Poppins',sans-serif;
+
+.contact-me {
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color:#EBEBFF;
-  text-align: center;
+  color: #ebebff;
   margin-left: 40px;
   margin-right: 20px;
 }
-form{
+
+form {
   display: flex;
   margin-left: 12px;
   margin-right: 20px;
- margin-bottom: 500px;
+  margin-bottom: 500px;
 }
-input, textarea{
-  height: 18px;
+
+input,
+textarea {
+  width: 327px;
+  height: 48px;
   left: 16px;
   right: 38px;
   top: calc(50% - 18px/2);
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  }
-  input,textarea {
-    width: 327px;
-    height: 48px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    background: #FFFFFF;
-    border: 1px solid #CFD8DC;
-    border-radius: 8px;
-    color:#172B4D;
-    font-family: 'Poppins',sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    box-sizing: border-box;
-  }
-  textarea{
-    width: 327px;
-    Height: 170px;
-    border: 1px solid #CFD8DC;
-    color: #B3BAC5;
-    color: #CFD8DC;
-  }
-  
-  .in-touch{
-    align-items: center;
-    padding: 12px 16px;
-    width: 142px;
-    height: 48px;
-    background: #FFFFFF;
-    border-radius: 8px;
-  }
- 
+} 
+
+/* input,
+textarea {
+  width: 327px;
+  height: 48px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  color: #172b4d;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  box-sizing: border-box;
+} */
+
+textarea {
+  width: 327px;
+  height: 170px;
+  border: 1px solid #cfd8dc;
+  color: #b3bac5;
+  color: #cfd8dc;
+}
+
+.in-touch {
+  align-items: center;
+  padding: 12px 16px;
+  width: 142px;
+  height: 48px;
+  background: #fff;
+  border-radius: 8px;
+}
