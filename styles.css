@@ -357,7 +357,7 @@ textarea {
   height: 48px;
   left: 16px;
   right: 38px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -365,7 +365,7 @@ textarea {
   line-height: 20px;
   display: flex;
   align-items: center;
-} 
+}
 
 /* input,
 textarea {
