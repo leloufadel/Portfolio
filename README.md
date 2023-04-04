@@ -164,9 +164,18 @@ To run the project, execute the following command:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-👤 *LalaAicha*
 
-- GitHub: [@githubhandle](https://github.com/leloufadel)
+
+
+👤 **Lala Aicha El Vadel**
+
+- GitHub: [leloufadel](https://github.com/leloufadel)
+
+
+👤 ****
+
+- GitHub: [Danny-imo](https://github.com/Danny-imo)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,10 +183,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Mobile first menu 
-- Add Drop down menu
+- Add Mobile first contact Form 
+
 - Use Mobile first approch
-- Add Add Responsiveness
+- Add  Responsiveness
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
