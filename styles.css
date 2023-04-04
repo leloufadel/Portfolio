@@ -313,9 +313,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
-  width: 415px;
+  width: 375px;
   border-top-left-radius: 100px;
-  padding: 20px;
+  padding: 8px;
 }
 
 .content-h2 {
@@ -357,7 +357,7 @@ textarea {
   height: 48px;
   left: 16px;
   right: 38px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -367,7 +367,6 @@ textarea {
   align-items: center;
 }
 
-
 textarea {
   width: 327px;
   height: 170px;
@@ -375,14 +374,17 @@ textarea {
   color: #b3bac5;
   color: #000;
 }
-#name{
+
+#name {
   padding-left: 15px;
 }
-#mail{
+
+#mail {
   padding-left: 15px;
 }
-#msg{
-padding-left: 15px;
+
+#msg {
+  padding-left: 15px;
 }
 
 .in-touch {
@@ -393,13 +395,10 @@ padding-left: 15px;
   background: #fff;
   border-radius: 8px;
 }
-.in-touch:hover{
-  background-color: #6070FF;
-  color:#FFFFFF;
-  border-color:#FFFFFF;
+
+.in-touch:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border-color: #fff;
   cursor: pointer;
-}
-.in-touch:enable{
-  background-color:white;
-  color: #7F8CFF;
 }

@@ -172,7 +172,7 @@ To run the project, execute the following command:
 - GitHub: [leloufadel](https://github.com/leloufadel)
 
 
-👤 ****
+👤 **Danny-imo**
 
 - GitHub: [Danny-imo](https://github.com/Danny-imo)
 
