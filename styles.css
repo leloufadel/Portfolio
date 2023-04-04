@@ -313,7 +313,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 779px;
-  width: 420px;
+  width: 415px;
   border-top-left-radius: 100px;
   padding: 20px;
 }
@@ -357,7 +357,7 @@ textarea {
   height: 48px;
   left: 16px;
   right: 38px;
-  top: calc(50% - 18px / 2);
+  top: calc(50% - 18px/2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -367,23 +367,6 @@ textarea {
   align-items: center;
 }
 
-/* input,
-textarea {
-  width: 327px;
-  height: 48px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  background: #fff;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  color: #172b4d;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  box-sizing: border-box;
-} */
 
 textarea {
   width: 327px;
@@ -392,7 +375,9 @@ textarea {
   color: #b3bac5;
   color: #cfd8dc;
 }
-
+#name{
+  padding-left: 15px;
+}
 .in-touch {
   align-items: center;
   padding: 12px 16px;
