@@ -373,7 +373,7 @@ textarea {
   height: 170px;
   border: 1px solid #cfd8dc;
   color: #b3bac5;
-  color: #cfd8dc;
+  color: #000;
 }
 #name{
   padding-left: 15px;
@@ -382,8 +382,9 @@ textarea {
   padding-left: 15px;
 }
 #msg{
-  padding-left: 15px;
+padding-left: 15px;
 }
+
 .in-touch {
   align-items: center;
   padding: 12px 16px;
@@ -392,10 +393,13 @@ textarea {
   background: #fff;
   border-radius: 8px;
 }
-.in-touch:hover { 
-  background-color:aqua;
-  
+.in-touch:hover{
+  background-color: #6070FF;
+  color:#FFFFFF;
+  border-color:#FFFFFF;
+  cursor: pointer;
 }
-.in-touch:enable { 
-  background-color:#fff;
+.in-touch:enable{
+  background-color:white;
+  color: #7F8CFF;
 }
