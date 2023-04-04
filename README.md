@@ -1,34 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
 
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+ 
+  <img src="https://as1.ftcdn.net/v2/jpg/05/06/45/92/1000_F_506459232_7RWXyXVU0ZapbSRlgPdnqdNexo0k2d8H.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b> Mobile Protfolio project</b></h3>
@@ -220,7 +197,4 @@ I would like to thank Microverse.
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT) licensed.
-
-<p align="right">(<a href="https://github.com/leloufadel/Portfolio/blob/mobilefirst/MIT.md">back to top</a>)</p>
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
