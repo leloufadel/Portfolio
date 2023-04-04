@@ -316,6 +316,8 @@ h2 {
   width: 375px;
   border-top-left-radius: 100px;
   padding: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-h2 {
@@ -401,4 +403,9 @@ textarea {
   color: #fff;
   border-color: #fff;
   cursor: pointer;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.in-touch:active {
+  background-color: #2230d2;
 }
