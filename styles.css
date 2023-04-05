@@ -398,6 +398,8 @@ textarea {
   border-radius: 8px;
 }
 
+
+
 .in-touch:hover {
   background-color: #6070ff;
   color: #fff;
@@ -408,4 +410,60 @@ textarea {
 
 .in-touch:active {
   background-color: #2230d2;
+}
+.navigations{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+ main{
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ nav .fa{
+  display: none;
+ }
+ header{
+  height: 70px;
+}
+nav .fa{
+display: none;
+}
+nav .navigations{
+   display: flex;
+ align-items: center; 
+  text-align: center;  
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+nav .navigations li:hover{
+  background-color: aqua;
+  border: 1px;
+  border-radius: 5px;
+}
+.grid-container{
+  background-color: #E5E5E5;
+}
+.section-1{
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+margin:20% 20%;
+}
+.connect{
+  width:120px;
+}
+.job{
+  display: flex;
+  flex-direction: row;
+    width: 800px; 
+    height:350px;
+}
+.reversed-card{
+  flex-direction: row-reverse;
+}
+.image-container{
+  flex-basis: 450px;
+}
 }

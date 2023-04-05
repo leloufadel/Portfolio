@@ -161,7 +161,6 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add Mobile first contact Form 
-
 - Use Mobile first approch
 - Add  Responsiveness
 
