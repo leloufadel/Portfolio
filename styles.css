@@ -457,13 +457,55 @@ margin:20% 20%;
 .job{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
     width: 800px; 
     height:350px;
 }
 .reversed-card{
   flex-direction: row-reverse;
 }
-.image-container{
+.job.image-container{
   flex-basis: 450px;
 }
+
+.image-container img{
+  width: 90%;
+  height: 300px;
+  margin: 10px;
+}
+.About{
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+  }
+  
+  .sct-1{
+    flex-basis: 50%;
+  }
+  .languages{
+    flex-direction: row;
+  }
+  
+  #Lang-Im{
+  
+    background-color:#F7F7F9;
+  }
+  .content-1{
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+}
+  
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+   .in-touch{
+margin-left: 75px;
+  } 
 }
