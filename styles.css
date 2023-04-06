@@ -490,20 +490,15 @@ textarea {
     border-radius: 8px;
   }
 
-
   #Fb360 {
     background-color: #4053fc;
     color: white;
   }
 
-
-
   .About {
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-    /* border: 1px solid red; */
   }
 
   .content {
