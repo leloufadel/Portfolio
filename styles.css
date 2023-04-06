@@ -7,6 +7,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 header {
@@ -104,7 +106,7 @@ h1 {
 }
 
 .content {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 #campany {
@@ -377,6 +379,13 @@ textarea {
   color: #000;
 }
 
+::placeholder {
+  color: #172b4d;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
 #name {
   padding-left: 15px;
 }
@@ -408,4 +417,141 @@ textarea {
 
 .in-touch:active {
   background-color: #2230d2;
+}
+
+.navigations {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(Image/Header\ bg@2x.png);
+  }
+
+  body {
+    overflow: auto;
+  }
+
+  nav .fa {
+    display: none;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  nav .navigations {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  nav .navigations li:hover {
+    background-color: aqua;
+    border: 1px;
+    border-radius: 5px;
+  }
+
+  .grid-container {
+    background-color: #f9fbff;
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20% 20%;
+  }
+
+  .connect {
+    width: 120px;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1165px;
+    height: 350px;
+    gap: 3%;
+  }
+
+  .reversed-card {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+
+  .job.image-container {
+    flex-basis: 90%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 300px;
+  }
+
+  #Fb360 {
+    background-color: #4053fc;
+    color: white;
+  }
+
+  .About {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1px;
+  }
+
+  .sct-1 {
+    flex-basis: 50%;
+  }
+
+  .languages {
+    flex-direction: row;
+  }
+
+  #Lang-Im {
+    background-color: #f7f7f9;
+  }
+
+  .content-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(image/contact-background.svg);
+  }
+
+  p {
+    padding: 17px;
+  }
+
+  h3 {
+    padding: 17px;
+  }
+
+  .contact-me {
+    max-width: 69%;
+    padding-left: 400px;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .in-touch {
+    margin-left: 75px;
+  }
 }

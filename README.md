@@ -149,10 +149,6 @@ To run the project, execute the following command:
 - GitHub: [leloufadel](https://github.com/leloufadel)
 
 
-👤 **Danny-imo**
-
-- GitHub: [Danny-imo](https://github.com/Danny-imo)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,9 +156,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Add Mobile first contact Form 
-
-- Use Mobile first approch
+- Use media queries
+- Use Grid and flexbox
 - Add  Responsiveness
 
 
