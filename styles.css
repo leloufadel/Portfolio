@@ -480,22 +480,23 @@ textarea {
     height: 300px;
     margin: 10px;
   }
+
   .firstJob {
     /* margin-top: 0;
     height: 428px;
     width: 544px;
     /* left: 24px;
     top: 24px; */
-    border-radius: 8px; */
+    border-radius: 8px;
   }
-    
-    
-  #Fb360{
-    background-color: #4053FC;
+
+
+  #Fb360 {
+    background-color: #4053fc;
     color: white;
   }
 
-  
+
 
   .About {
     /* display: flex; */
@@ -504,13 +505,10 @@ textarea {
 
     /* border: 1px solid red; */
   }
-  .content{
-    
+
+  .content {
     display: flex;
     flex-direction: column;
-    
-    
-
   }
 
   .sct-1 {
