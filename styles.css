@@ -7,6 +7,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
+  width:100%;
+  flex-wrap:wrap;
 }
 
 header {
@@ -84,6 +86,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .job {
@@ -97,6 +100,7 @@ h1 {
   width: 90vw;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  
 }
 
 .firstJob {
@@ -104,7 +108,7 @@ h1 {
 }
 
 .content {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 #campany {
@@ -376,7 +380,12 @@ textarea {
   color: #b3bac5;
   color: #000;
 }
-
+::placeholder{
+  color: #172B4D;
+  font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+}
 #name {
   padding-left: 15px;
 }
@@ -416,8 +425,12 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   main {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-image:url(Image/Header\ bg@2x.png);
+  }
+  body{
+    overflow: auto; 
   }
 
   nav .fa {
@@ -426,6 +439,7 @@ textarea {
 
   header {
     height: 70px;
+    
   }
 
   nav .navigations {
@@ -444,7 +458,8 @@ textarea {
   }
 
   .grid-container {
-    background-color: #e5e5e5;
+    background-color: 
+    #f9fbff;    
   }
 
   .section-1 {
@@ -462,34 +477,25 @@ textarea {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 800px;
+    width: 1165px;
     height: 350px;
+    gap: 3%;
   }
 
   .reversed-card {
     flex-direction: row-reverse;
+    justify-content: space-around;
   }
 
   .job.image-container {
-    flex-basis: 450px;
+    flex-basis: 90%;
   }
 
   .image-container img {
-    width: 90%;
+    width: 100%;
     height: 300px;
-    margin: 10px;
   }
-
-  .firstJob {
-    /* margin-top: 0;
-    height: 428px;
-    width: 544px;
-    /* left: 24px;
-    top: 24px; */
-    border-radius: 8px;
-  }
-
+ 
   #Fb360 {
     background-color: #4053fc;
     color: white;
@@ -504,6 +510,8 @@ textarea {
   .content {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    gap: 1px;
   }
 
   .sct-1 {
@@ -522,6 +530,19 @@ textarea {
     width: 100%;
     display: flex;
     flex-direction: column;
+   
+    background-image: url(image/contact-background.svg);
+
+  }
+  p{
+    padding: 17px; 
+  }
+  h3{
+    padding: 17px;
+  }
+  .contact-me{
+     max-width: 69%; 
+     padding-left: 400px;
   }
 
   form {
