@@ -398,8 +398,6 @@ textarea {
   border-radius: 8px;
 }
 
-
-
 .in-touch:hover {
   background-color: #6070ff;
   color: #fff;
@@ -411,101 +409,111 @@ textarea {
 .in-touch:active {
   background-color: #2230d2;
 }
-.navigations{
+
+.navigations {
   display: none;
 }
 
 @media only screen and (min-width: 768px) {
- main{
-  background-size: cover;
-  background-repeat: no-repeat;
- }
- nav .fa{
-  display: none;
- }
- header{
-  height: 70px;
-}
-nav .fa{
-display: none;
-}
-nav .navigations{
-   display: flex;
- align-items: center; 
-  text-align: center;  
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-}
-nav .navigations li:hover{
-  background-color: aqua;
-  border: 1px;
-  border-radius: 5px;
-}
-.grid-container{
-  background-color: #E5E5E5;
-}
-.section-1{
-  display: flex;
-flex-direction: column;
-justify-content: space-around;
-margin:20% 20%;
-}
-.connect{
-  width:120px;
-}
-.job{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-    width: 800px; 
-    height:350px;
-}
-.reversed-card{
-  flex-direction: row-reverse;
-}
-.job.image-container{
-  flex-basis: 450px;
-}
-
-.image-container img{
-  width: 90%;
-  height: 300px;
-  margin: 10px;
-}
-.About{
-  /* display: flex; */
-  flex-direction: row;
-  justify-content: space-evenly;
-  /* border: 1px solid red; */
+  main {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  
-  .sct-1{
+
+  nav .fa {
+    display: none;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  nav .navigations {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  nav .navigations li:hover {
+    background-color: aqua;
+    border: 1px;
+    border-radius: 5px;
+  }
+
+  .grid-container {
+    background-color: #e5e5e5;
+  }
+
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20% 20%;
+  }
+
+  .connect {
+    width: 120px;
+  }
+
+  .job {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 350px;
+  }
+
+  .reversed-card {
+    flex-direction: row-reverse;
+  }
+
+  .job.image-container {
+    flex-basis: 450px;
+  }
+
+  .image-container img {
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+  }
+
+  .About {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* border: 1px solid red; */
+  }
+
+  .sct-1 {
     flex-basis: 50%;
   }
-  .languages{
+
+  .languages {
     flex-direction: row;
   }
-  
-  #Lang-Im{
-  
-    background-color:#F7F7F9;
+
+  #Lang-Im {
+    background-color: #f7f7f9;
   }
-  .content-1{
+
+  .content-1 {
     width: 100%;
     display: flex;
-  flex-direction: column;
-}
-  
+    flex-direction: column;
+  }
 
-  form{
+  form {
     display: flex;
     align-items: center;
     justify-content: center;
-  
   }
-   .in-touch{
-margin-left: 75px;
-  } 
+
+  .in-touch {
+    margin-left: 75px;
+  }
 }
