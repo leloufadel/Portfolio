@@ -7,8 +7,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
-  width:100%;
-  flex-wrap:wrap;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 header {
@@ -86,7 +86,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .job {
@@ -100,7 +99,6 @@ h1 {
   width: 90vw;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  
 }
 
 .firstJob {
@@ -380,12 +378,14 @@ textarea {
   color: #b3bac5;
   color: #000;
 }
-::placeholder{
-  color: #172B4D;
+
+::placeholder {
+  color: #172b4d;
   font-weight: 400;
-font-size: 17px;
-line-height: 20px;
+  font-size: 17px;
+  line-height: 20px;
 }
+
 #name {
   padding-left: 15px;
 }
@@ -427,10 +427,11 @@ line-height: 20px;
   main {
     background-size: contain;
     background-repeat: no-repeat;
-    background-image:url(Image/Header\ bg@2x.png);
+    background-image: url(Image/Header\ bg@2x.png);
   }
-  body{
-    overflow: auto; 
+
+  body {
+    overflow: auto;
   }
 
   nav .fa {
@@ -439,7 +440,6 @@ line-height: 20px;
 
   header {
     height: 70px;
-    
   }
 
   nav .navigations {
@@ -458,8 +458,7 @@ line-height: 20px;
   }
 
   .grid-container {
-    background-color: 
-    #f9fbff;    
+    background-color: #f9fbff;
   }
 
   .section-1 {
@@ -495,7 +494,7 @@ line-height: 20px;
     width: 100%;
     height: 300px;
   }
- 
+
   #Fb360 {
     background-color: #4053fc;
     color: white;
@@ -530,19 +529,20 @@ line-height: 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
-   
     background-image: url(image/contact-background.svg);
+  }
 
-  }
-  p{
-    padding: 17px; 
-  }
-  h3{
+  p {
     padding: 17px;
   }
-  .contact-me{
-     max-width: 69%; 
-     padding-left: 400px;
+
+  h3 {
+    padding: 17px;
+  }
+
+  .contact-me {
+    max-width: 69%;
+    padding-left: 400px;
   }
 
   form {
