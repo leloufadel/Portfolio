@@ -386,6 +386,11 @@ textarea {
   line-height: 20px;
 }
 
+/* ::placeholder :hover {
+  color: red;
+  transition-duration: 3s;
+} */
+
 #name {
   padding-left: 15px;
 }
@@ -413,6 +418,8 @@ textarea {
   border-color: #fff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 2s;
+  transition-delay: 1s;
 }
 
 .in-touch:active {
@@ -438,6 +445,19 @@ textarea {
     display: none;
   }
 
+  .logo {
+    transform: rotate(45deg);
+    animation-duration: 2s;
+    background-color: rgb(39, 20, 209);
+
+    /* animation-name: square; */
+
+    /* animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite; */
+  }
+
   header {
     height: 70px;
   }
@@ -455,6 +475,8 @@ textarea {
     background-color: aqua;
     border: 1px;
     border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
   }
 
   .grid-container {
@@ -540,6 +562,16 @@ textarea {
     padding: 17px;
   }
 
+  h4 {
+    /* font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    color: aqua; */
+    transition-property: opacity, left, top, height;
+    transition-duration: 2s, 3s;
+  }
+
   .contact-me {
     max-width: 69%;
     padding-left: 400px;
@@ -551,7 +583,14 @@ textarea {
     justify-content: center;
   }
 
- 
+  #name,
+  #mail,
+  #msg {
+    transform: translate(15px, 15px);
+    transition-duration: 2s;
+    transition-delay: 4s;
+  }
+
   .in-touch {
     margin-left: 75px;
   }
