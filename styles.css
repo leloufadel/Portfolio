@@ -578,6 +578,12 @@ textarea {
     justify-content: center;
   }
 
+  #name, #mail, #msg{
+    transform: translate(15px, 15px);
+    transition-duration: 2s;
+    transition-delay: 4s;
+   }
+
   .in-touch {
     margin-left: 75px;
   }
