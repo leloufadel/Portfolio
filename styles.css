@@ -579,12 +579,16 @@ textarea {
     justify-content: center;
   }
 
+<<<<<<< HEAD
   #name, #mail, #msg{
     transform: translate(15px, 15px);
     transition-duration: 2s;
     transition-delay: 4s;
    }
 
+=======
+ 
+>>>>>>> div
   .in-touch {
     margin-left: 75px;
   }
