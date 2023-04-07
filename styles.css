@@ -385,6 +385,10 @@ textarea {
   font-size: 17px;
   line-height: 20px;
 }
+/* ::placeholder :hover {
+  color: red;
+  transition-duration: 3s;
+} */
 
 #name {
   padding-left: 15px;
@@ -414,7 +418,7 @@ textarea {
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   transition: 2s;
-  transition-delay: 0.5s;
+  transition-delay: 1s;
 }
 
 .in-touch:active {
@@ -563,10 +567,7 @@ textarea {
     transition-property: opacity, left, top, height;
     transition-duration: 2s, 3s;
   }
-  h4:hover {
-    /* font-size: 100px;
-    color: #2230d2; */
-  }
+ 
   .contact-me {
     max-width: 69%;
     padding-left: 400px;
