@@ -445,8 +445,8 @@ textarea {
   }
   .logo{
     transform: rotate(45deg);
-    animation-duration: 4s;
-  background-color: pink;
+    animation-duration: 2s;
+  background-color: rgb(39, 20, 209);
   /* animation-name: square; */
   /* animation-duration: 4s;
   animation-delay: 0.5s;
