@@ -413,6 +413,8 @@ textarea {
   border-color: #fff;
   cursor: pointer;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  transition: 2s;
+  transition-delay: 0.5s;
 }
 
 .in-touch:active {
@@ -437,6 +439,16 @@ textarea {
   nav .fa {
     display: none;
   }
+  .logo{
+    transform: rotate(45deg);
+    animation-duration: 4s;
+  background-color: pink;
+  /* animation-name: square; */
+  /* animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite; */
+  }
 
   header {
     height: 70px;
@@ -449,12 +461,15 @@ textarea {
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
+
   }
 
   nav .navigations li:hover {
     background-color: aqua;
     border: 1px;
     border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-timing-function:linear;
   }
 
   .grid-container {
@@ -539,7 +554,19 @@ textarea {
   h3 {
     padding: 17px;
   }
-
+  h4{
+    /* font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    color: aqua; */
+    transition-property: opacity, left, top, height;
+    transition-duration: 2s, 3s;
+  }
+  h4:hover {
+    /* font-size: 100px;
+    color: #2230d2; */
+  }
   .contact-me {
     max-width: 69%;
     padding-left: 400px;
