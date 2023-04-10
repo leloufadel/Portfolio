@@ -75,7 +75,7 @@ Use images and backgrounds to enhance the look of the website.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Coming Soon!
+> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,7 +134,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
->
+> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
