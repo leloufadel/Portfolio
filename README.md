@@ -134,7 +134,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-> [Click here to navigate](https://leloufadel.github.io/Portfolio/).
+>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
