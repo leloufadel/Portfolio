@@ -148,6 +148,9 @@ To run the project, execute the following command:
 
 - GitHub: [leloufadel](https://github.com/leloufadel)
 
+ **Emmanuel Hagan**
+
+- GitHub: [hagan199](https://github.com/hagan199)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
