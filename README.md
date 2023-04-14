@@ -188,8 +188,11 @@ If you like this project Leave A Star.
 I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!--Project OUTLINE-->
+<p> Project outline: Loom record link  <a href="https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408">click here
+ </p>
 <!-- LICENSE -->
-<h2> Project outline: Loom record link :</h2> [Click here to navigate](https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408/).
+
+
 ## 📝 License <a name="license"></a>
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
