@@ -190,6 +190,6 @@ I would like to thank Microverse.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-
+<h2> Project outline: Loom record link : (https://www.loom.com/share/b2d5d3c82e3147148b1d4ee5347eb408)</h2>
 ## 📝 License <a name="license"></a>
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed .
