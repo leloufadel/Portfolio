@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
@@ -19,7 +15,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   height: 150px;
   padding: 21px;
 }
@@ -34,11 +29,11 @@ header {
   text-decoration: none;
 }
 
-/* .menu {
+.menu {
   padding-right: 20px;
   font-size: 30px;
   color: blue;
-} */
+}
 
 .Descriptions {
   font-family: "Poppins", sans-serif;
@@ -110,9 +105,9 @@ h1 {
   margin-top: 0;
 }
 
-/* .content {
-  /* margin-left: 30px;
-} */
+.content {
+  /* margin-left: 30px; */
+}
 
 #campany {
   font-weight: bolder;
@@ -158,10 +153,6 @@ ul > li {
   display: inline;
   padding: 7px;
   gap: 5px;
-}
-
-.menu.show ul {
-  display: block;
 }
 
 p {
@@ -435,62 +426,8 @@ textarea {
   background-color: #2230d2;
 }
 
-/* <--Memu> */
-
 .navigations {
-  /* display: none; */
-  position: absolute;
-  visibility: hidden;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: auto;
-  padding: 8rem 2rem;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  /* transform: translate(-50%); */
-  transition: 0.3s;
-  background-color: #6070ff;
-}
-
-header.active .navigations {
-  visibility: visible;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: black;
-}
-
-.hamberger {
-  display: block;
-}
-
-.active .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-
-.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-item {
-  margin: 16px 0;
-}
-
-.navigations.active {
-  left: 0;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -504,33 +441,29 @@ header.active .navigations {
     overflow: auto;
   }
 
+  nav .fa {
+    display: none;
+  }
+
   .logo {
     transform: rotate(45deg);
     animation-duration: 2s;
     background-color: rgb(39, 20, 209);
+
+    /* animation-name: square; */
+
+    /* animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count:infinite; */
   }
 
   header {
     height: 70px;
   }
 
-  .hamberger {
-    display: none;
-    cursor: pointer;
-  }
-
-  .navbar {
-    min-height: 70px;
+  nav .navigations {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    gap: 60px;
-  }
-
-  .navigations {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     text-align: center;
     font-size: 15px;
@@ -630,6 +563,11 @@ header.active .navigations {
   }
 
   h4 {
+    /* font-size: 14px;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    color: aqua; */
     transition-property: opacity, left, top, height;
     transition-duration: 2s, 3s;
   }
