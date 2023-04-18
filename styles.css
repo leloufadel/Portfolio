@@ -452,6 +452,12 @@ textarea {
   flex-direction: column;
   text-align: left;
   color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  transition: 0.3s;
+  background-color: #6070ff;
 
   /* transform: translate(-50%); */
   transition: 0.3s;
@@ -480,14 +486,16 @@ header.active .navigations {
 
 .active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 .nav-item {
-  margin: 16px 0;
+  margin: 8px 0;
   color: #fff;
 }
 
