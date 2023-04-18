@@ -13,17 +13,16 @@
 
 // const humberger = document.querySelector(".humberger");
 
-// humberger.addEventListener("click", () => { 
+// humberger.addEventListener("click", () => {
 
-    // const navigations = document.querySelector(".navigations");
+// const navigations = document.querySelector(".navigations");
 
-    // navigations.style.display = 'flex';
+// navigations.style.display = 'flex';
 
 //  });
-const hamburger = document.querySelector(".hamberger");
+// const hamburger = document.querySelector('.hamberger');
 // const mynav = document.querySelector(".nav-menu");
-const header = document.querySelector("header");
-
+const header = document.querySelector('header');
 
 // hamburger.addEventListener("click", () => {
 //     header.classList.toggle("active");
@@ -64,4 +63,3 @@ setMobileClass();
 
 // Call the function on window resize
 window.addEventListener('resize', setMobileClass);
-
