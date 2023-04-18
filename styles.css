@@ -451,7 +451,7 @@ textarea {
   display: flex;
   flex-direction: column;
   text-align: left;
-  color:#fff;
+  color: #fff;
 
   /* transform: translate(-50%); */
   transition: 0.3s;
@@ -490,9 +490,11 @@ header.active .navigations {
   margin: 16px 0;
   color: #fff;
 }
-.nav-link{
-  color:#fff;
+
+.nav-link {
+  color: #fff;
 }
+
 .navigations.active {
   left: 0;
 }
@@ -531,6 +533,7 @@ header.active .navigations {
     padding: 0 24px;
     gap: 60px;
   }
+
   .navigations {
     display: flex;
     align-items: center;
@@ -563,7 +566,7 @@ header.active .navigations {
     width: 120px;
   }
 
- 
+
 
   .job {
     display: flex;
