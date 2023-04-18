@@ -15,6 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   height: 150px;
   padding: 21px;
 }
@@ -29,11 +30,16 @@ header {
   text-decoration: none;
 }
 
-.menu {
+/* .menu {
   padding-right: 20px;
   font-size: 30px;
   color: blue;
+} */
+
+.menu.show ul {
+  display: block;
 }
+
 
 .Descriptions {
   font-family: "Poppins", sans-serif;
@@ -425,9 +431,47 @@ textarea {
 .in-touch:active {
   background-color: #2230d2;
 }
+/* <--Memu> */
 
 .navigations {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  left:50%;
+  top: 20vh;
+  width:90%;
+  display: flex;
+  Flex-direction :column; 
+  text-align:center;
+  transform: translate(-50%);
+  transition: 0.3s; 
+  background-color: white;
+}
+.bar{
+  display: block;
+  width:25px;
+  height: 3px;
+  margin:5px auto;
+  background-color: black;
+}
+.hamberger{
+  display:block;
+}
+
+
+.hamberger.active .bar:nth-child(2){
+  opacity:0;
+}
+.hamberger.active .bar:nth-child(1){
+  transform: translateY(8px) rotate(45deg);
+} 
+.hamberger.active .bar:nth-child(3){
+  transform: translateY(-8px) rotate(-45deg);
+} 
+.nav-item{
+  margin:16px 0;
+}
+.navigations.active {
+left:0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -441,35 +485,37 @@ textarea {
     overflow: auto;
   }
 
-  nav .fa {
-    display: none;
-  }
-
   .logo {
     transform: rotate(45deg);
     animation-duration: 2s;
     background-color: rgb(39, 20, 209);
-
-    /* animation-name: square; */
-
-    /* animation-duration: 4s;
-  animation-delay: 0.5s;
-  animation-direction: alternate;
-  animation-iteration-count:infinite; */
   }
 
   header {
     height: 70px;
   }
+  .hamberger{
+    display: none;
+    cursor:pointer;
+}
+.navbar{
+  min-height: 70px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  gap:60px;
 
-  nav .navigations {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-  }
+}
+.navigations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
 
   nav .navigations li:hover {
     background-color: aqua;
@@ -563,11 +609,6 @@ textarea {
   }
 
   h4 {
-    /* font-size: 14px;
-    transition-property: font-size;
-    transition-duration: 1s;
-    transition-delay: 0s;
-    color: aqua; */
     transition-property: opacity, left, top, height;
     transition-duration: 2s, 3s;
   }
