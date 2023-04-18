@@ -130,7 +130,8 @@ h1 {
   color: #7a869a;
   font-weight: 600;
   line-height: 16px;
-  size: 13px;
+
+  /* size: 13px; */
 }
 
 h3 {
@@ -200,8 +201,10 @@ button {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  size: 12px;
-  list-style: 16px;
+
+  /* size: 12px; */
+
+  /* list-style: 16px; */
   letter-spacing: 3%;
 }
 
@@ -456,10 +459,6 @@ textarea {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  transition: 0.3s;
-  background-color: #6070ff;
-
-  /* transform: translate(-50%); */
   transition: 0.3s;
   background-color: #6070ff;
 }
