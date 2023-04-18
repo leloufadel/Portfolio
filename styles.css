@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
@@ -111,9 +115,9 @@ h1 {
   margin-top: 0;
 }
 
-.content {
-  /* margin-left: 30px; */
-}
+/* .content {
+  /* margin-left: 30px; 
+} */
 
 #campany {
   font-weight: bolder;
@@ -436,15 +440,24 @@ textarea {
 .navigations {
   /* display: none; */
   position: absolute;
-  left:50%;
-  top: 20vh;
-  width:90%;
+  visibility: hidden;
+  left:0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width:100%;
+  height: auto;
+  padding: 8rem 2rem;
   display: flex;
   Flex-direction :column; 
   text-align:center;
-  transform: translate(-50%);
+  /* transform: translate(-50%); */
   transition: 0.3s; 
   background-color: white;
+}
+
+header.active .navigations {
+  visibility: visible;
 }
 .bar{
   display: block;
@@ -458,13 +471,13 @@ textarea {
 }
 
 
-.hamberger.active .bar:nth-child(2){
+.active .bar:nth-child(2){
   opacity:0;
 }
-.hamberger.active .bar:nth-child(1){
+.active .bar:nth-child(1){
   transform: translateY(8px) rotate(45deg);
 } 
-.hamberger.active .bar:nth-child(3){
+.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
 } 
 .nav-item{
