@@ -535,14 +535,22 @@ header.active .navigations {
   }
 
   .navigations {
-    display: flex;
+    display: block;
     align-items: center;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
+    /* display: none; */
+    position: static;
+    visibility:visible;
+    background-color:white;
+    padding: 0;
+    margin: 0;
   }
-
+.nav-link{
+  color:#344563;
+}
   nav .navigations li:hover {
     background-color: aqua;
     border: 1px;
