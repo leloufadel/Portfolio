@@ -130,7 +130,8 @@ h1 {
   color: #7a869a;
   font-weight: 600;
   line-height: 16px;
-  size: 13px;
+
+  /* size: 13px; */
 }
 
 h3 {
@@ -200,8 +201,10 @@ button {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  size: 12px;
-  list-style: 16px;
+
+  /* size: 12px; */
+
+  /* list-style: 16px; */
   letter-spacing: 3%;
 }
 
@@ -450,9 +453,12 @@ textarea {
   padding: 8rem 2rem;
   display: flex;
   flex-direction: column;
-  text-align: center;
-
-  /* transform: translate(-50%); */
+  text-align: left;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
   transition: 0.3s;
   background-color: #6070ff;
 }
@@ -479,14 +485,21 @@ header.active .navigations {
 
 .active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 .nav-item {
-  margin: 16px 0;
+  margin: 8px 0;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
 }
 
 .navigations.active {
@@ -529,13 +542,23 @@ header.active .navigations {
   }
 
   .navigations {
-    display: flex;
-    flex-direction: row;
+    display: block;
     align-items: center;
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
+
+    /* display: none; */
+    position: static;
+    visibility: visible;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-link {
+    color: #344563;
   }
 
   nav .navigations li:hover {

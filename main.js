@@ -1,4 +1,5 @@
 const header = document.querySelector('header');
+const humberger = document.querySelector('.hamberger');
 const body = document.querySelector('body');
 const MOBILE_WIDTH = 768;
 function disableScroll() {
@@ -9,8 +10,9 @@ function enableScroll() {
 }
 function setMobileClass() {
   if (window.innerWidth < MOBILE_WIDTH) {
-    header.addEventListener('click', () => {
+    humberger.addEventListener('click', () => {
       header.classList.toggle('active');
+
       if (header.classList.contains('active')) {
         disableScroll();
       } else {
