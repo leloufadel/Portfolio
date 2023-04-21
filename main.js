@@ -1,4 +1,3 @@
-
 // const closeBtn = document.querySelector('.closeBtn')
 // const job1 = document.querySelector('.job1')
 // closeBtn.addEventListener('click', () => {
@@ -29,7 +28,3 @@ function setMobileClass() {
 }
 setMobileClass();
 window.addEventListener('resize', setMobileClass);
-
-
-
-
