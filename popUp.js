@@ -140,7 +140,6 @@ function Popup(position) {
     });
   }
 }
-
 const projectnBtn = document.querySelectorAll('#popbtn');
 projectnBtn.forEach((btn, ind) => {
   btn.addEventListener('click', () => {
