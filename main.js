@@ -4,6 +4,7 @@
 //     job1.classList.remove('job1');
 //     job1.style.display = 'none';
 //   });
+
 const header = document.querySelector('header');
 const body = document.querySelector('body');
 const MOBILE_WIDTH = 768;
