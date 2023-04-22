@@ -560,6 +560,8 @@ header.active .navigations {
 
 .close-icon {
   cursor: pointer;
+  color: #67798E;
+  font-size: 34px;
 }
 
 .work-place {
