@@ -507,7 +507,6 @@ header.active .navigations {
   padding: 50px 16px;
 }
 
-
 .modal {
   max-width: 80%;
   height: 90%;
@@ -540,7 +539,6 @@ header.active .navigations {
 .liveIcon:hover {
   color: white;
 }
-
 
 .pop-content {
   width: 100%;
@@ -611,7 +609,6 @@ header.active .navigations {
   text-align: center;
   padding-bottom: 20px;
 } */
-
 
 @media only screen and (min-width: 768px) {
   main {
@@ -777,7 +774,6 @@ header.active .navigations {
     margin-left: 75px;
   }
 
-  
   .pop {
     display: none;
     position: fixed;
@@ -836,5 +832,3 @@ header.active .navigations {
     margin-bottom: 40px;
   }
 }
-
-
